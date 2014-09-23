@@ -50,7 +50,7 @@ int main(int argc, char** argv)
 	std::string configFilePath;
 	if (argc < 2) {
 		configFilePath = "./extractFrames.config";
-		std::cout << "use the default config file: ./config" << std::endl;
+		std::cout << "use the default config file: ./extractFrames.config" << std::endl;
 		std::cout << "specify the config file by extractFramesFromVideo.exe path_to_config_file"
 			  << std::endl;
 	}
